@@ -1,6 +1,5 @@
 import os
 
-# 处理35文件夹
 dir_path_35 = r'F:\新建文件夹\35-36\35'
 counter_35 = 1
 
@@ -10,7 +9,6 @@ for file in os.listdir(dir_path_35):
         os.rename(os.path.join(dir_path_35, file), os.path.join(dir_path_35, new_name))
         counter_35 += 1
 
-# 处理36文件夹
 dir_path_36 = r'F:\新建文件夹\35-36\36'
 counter_36 = 1
 
